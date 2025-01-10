@@ -1,0 +1,131 @@
+baseURL: https://azizzayed.com/
+languageCode: en-us
+title: Aziz Zayed
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: About Me
+      name: About Me
+      url: /about
+      weight: 20
+    - identifier: Publications
+      name: Publications
+      url: /publications
+      weight: 30
+    - identifier: Projects
+      name: Projects
+      url: /projects
+      weight: 40
+    - identifier: Blog
+      name: Blog
+      url: /posts
+      weight: 50
+    - identifier: Search
+      name: Search
+      url: /search
+      weight: 80
+
+enableRobotsTXT: true # Hugo will generate a robots.txt file for your site, which is important for controlling how search engines index your site.
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Aziz Zayed
+  description: "Aziz Zayed's website."
+  keywords: [Aziz Zayed]
+  author: Aziz Zayed
+  images: ["me.jpg"]
+  DateFormat: "January 10, 2024"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableScrollToTop: false
+  comments: false
+  hideMeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  # assets:
+  #   # disableHLJS: true # to disable highlight.js
+  #   # disableFingerprinting: true
+  #   favicon: "<link / abs url>"
+  #   favicon16x16: "<link / abs url>"
+  #   favicon32x32: "<link / abs url>"
+  #   apple_touch_icon: "<link / abs url>"
+  #   safari_pinned_tab: "<link / abs url>"
+
+  # label:
+  #   text: "Home"
+  #   icon: /apple-touch-icon.png
+  #   iconHeight: 35
+
+  profileMode:
+    enabled: true
+    title: Aziz Zayed
+    subtitle: "Hi 👋 I'm Aziz, I do research on compilers and programming languages."
+    imageUrl: "home/me.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: Me
+    buttons:
+      - name: Resume
+        url: "home/Abd-El-Aziz_zayed.pdf"
+
+
+  socialIcons:
+    - name: email
+      url: "mailto:aziz.zayed@mcgill.ca"
+    - name: googlescholar
+      url: "blank"
+    - name: orcid
+      url: "https://orcid.org/0009-0006-5225-5111"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/azizzayed/"
+    - name: github
+      url: "https://github.com/AzizZayed"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
+
+  cover: # cover image for posts
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  editPost:
+    URL: "mailto:aziz.zayed@mcgill.ca"
+    Text: "Suggest Changes" # edit text
+
+  # for search using Fuse.js
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
