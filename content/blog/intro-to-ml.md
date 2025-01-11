@@ -55,11 +55,14 @@ The **dot product** of vectors $\va$ and $\vb$ is a special case of a matrix pro
 The **inverse** of a matrix $\mA$ is $\mA^{-1}$, meant to solve equations like $\mA\vx=\vb$. We isolate $\vx$ by multiplying each side (to the left) by the inverse of $\mA$ and using the property $\mA^{-1}\mA=\mI$. Finally $\vx=\mA^{-1}\vb$.
 
 To measure the size of a vector, we can use the $L^P$ norm of a vector
+
 $$
 L^P=|| \va ||_p = \sqrt[p]{\sum_i |a_i|^p}=\left ( \sum_i |a_i|^p \right )^{1/p}
 $$
+
 where $p \in \sR$ and $p \ge 1$.
 Note that the commonly used norm is the $L^2$ norm
+
 $$
 L^2=|| \va ||_2 = \sqrt{\sum_i |a_i|^2}=\sqrt{\sum_i a_i^2}=\sqrt{\va^{\top}\va}
 $$
