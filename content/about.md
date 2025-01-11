@@ -20,4 +20,4 @@ With a diverse range of industry and research experiences, I've had the opportun
 
  Check out my [resume](/home/Abd-El-Aziz_Zayed.pdf) for more details.
 
-Outside of research and work, I’m love learning and building things (*i.e.* the engineering degree 🙂). Feel free to explore my [blog](/blog) and [projects](/projects) to see what I’ve been working on. I also enjoy diving into topics on religion and philosophy, as well as spending time exploring the beauty of nature.
+Outside of research and work, I love learning and building things (*i.e.* the engineering degree 🙂). Feel free to explore my [blog](/blog) and [projects](/projects) to see what I’ve been working on. I also enjoy diving into topics on religion and philosophy, as well as spending time exploring the beauty of nature.
