@@ -1,10 +1,10 @@
 ---
 # date: '2025-01-11T00:18:58-05:00'
-title: 'Machine Learning is Easy. Just Read This.'
+title: 'The Most Straight-to-the-Point Deep Dive Into Deep Learning'
 draft: true
 math: true
 ---
-This article serves as the most straight-to-the-point deep dive into Machine Learning, ...
+This article serves as the most straight-to-the-point deep dive into Deep Learning, from the pre-requisite math, K-Nearest Neighbours, Multi-Layer Perceptrons all the way to Transformers, inspired by the Deep Learning book.
 
 $$
 \newcommand{\train}{\mathcal{D}}
@@ -74,13 +74,6 @@ Refer to the matrix cookbook for more matrix operations and properties.
 ### Probability Theory
 
 ## Introduction
-
-## Motivation
-
-## KNN
-
-## Linear Regression
-
-## Logistic Regression
-
-## 
+- subset of ML .. read ML article first is recommended, but not strictly necessary
+- ML had 3 phases, then DL happened
+- I won't start by the perceptron like the tradition, I'll motivate DL first
