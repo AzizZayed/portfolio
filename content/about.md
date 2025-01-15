@@ -6,7 +6,6 @@ HideAuthor: true
 editPost:
     disabled: true
 ---
-![](/home/me.jpg)
 Hi there! I'm Aziz Zayed, an MSc student at McGill University specializing in compilers and programming languages.
 My current research focuses on building tools to optimize MLIR code using equality saturation.
 This work has led to a publication, [DialEgg: Dialect-Agnostic MLIR Optimizer using Equality Saturation with Egglog](/publications/dialegg), which I will present at CGO in March 2025.
