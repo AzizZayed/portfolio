@@ -84,7 +84,7 @@ params:
     # dateFormat: "January 2, 2006"
     buttons:
       - name: Resume
-        url: "home/Abd-El-Aziz_zayed.pdf"
+        url: "home/Abd-El-Aziz_Zayed.pdf"
 
 
   socialIcons:
