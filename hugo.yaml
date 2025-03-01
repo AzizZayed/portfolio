@@ -2,6 +2,8 @@ baseURL: https://azizzayed.com/
 languageCode: en-us
 title: Aziz Zayed
 theme: PaperMod
+images:
+ - /home/me.jpg
 
 menu:
   main:
