@@ -91,7 +91,7 @@ params:
     - name: email
       url: "mailto:aziz.zayed@mcgill.ca"
     - name: googlescholar
-      url: "blank"
+      url: "https://scholar.google.com/citations?user=qomkgRUAAAAJ&hl=en"
     - name: orcid
       url: "https://orcid.org/0009-0006-5225-5111"
     - name: linkedin
