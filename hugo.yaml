@@ -91,7 +91,7 @@ params:
 
   socialIcons:
     - name: email
-      url: "mailto:aziz.zayed@mcgill.ca"
+      url: "mailto:aziz.zayed@mail.mcgill.ca"
     - name: googlescholar
       url: "https://scholar.google.com/citations?user=qomkgRUAAAAJ&hl=en"
     - name: orcid
