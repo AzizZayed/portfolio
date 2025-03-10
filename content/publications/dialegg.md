@@ -11,7 +11,7 @@ author: ["Abd-El-Aziz Zayed", "Christophe Dubach"]
 tags: ["compilers", "optimization", "MLIR", 'equality saturation', 'egglog']
 # date: "2024-11-04"
 cover:
-    image: 'publications/ov-bg.svg'
+    image: 'publications/dialegg/ov-bg.svg'
 editPost:
     disabled: true
 ---
