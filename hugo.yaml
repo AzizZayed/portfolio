@@ -115,7 +115,7 @@ params:
     hiddenInSingle: false # hide on single page
 
   editPost:
-    URL: "mailto:aziz.zayed@mcgill.ca"
+    URL: "mailto:aziz.zayed@mail.mcgill.ca"
     Text: "Suggest Changes" # edit text
 
   # for search using Fuse.js
